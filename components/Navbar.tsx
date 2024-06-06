@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="container mx-auto flex items-center justify-between p-8">
+    <nav className="container mx-auto flex items-center justify-between p-12">
       <div>
         <Image src={logoImg} alt="logo" className="w-38" />
       </div>
       <div className="hidden md:block">
-        <ul className="flex items-center space-x-12 uppercase tracking-normal lg:tracking-widest text-lg text-veryDarkBlue">
+        <ul className="flex items-center space-x-12 uppercase tracking-normal lg:tracking-widest text-md text-veryDarkBlue">
           <li>
             <Link href="#" className="hover:text-softRed">
               Features
