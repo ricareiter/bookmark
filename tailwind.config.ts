@@ -19,6 +19,9 @@ const config: Config = {
         grayishBlue: "hsl(229, 8%, 60%)",
         veryDarkBlue: "hsl(229, 31%, 21%)",
       },
+      letterSpacing: {
+        superWide: "3px",
+      },
     },
   },
   plugins: [],
