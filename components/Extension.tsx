@@ -22,7 +22,7 @@ const Extension = ({ custom, image, alt, browser, version }: Props) => {
       </div>
       <div className="border-dotted border-b-4 border-gray-200 w-full"></div>
       <div className="mt-6 mb-6 px-4">
-        <button className="bg-softBlue py-2 px-6 rounded-md text-white text-md">
+        <button className="bg-softBlue py-2 px-6 border-2 border-softBlue rounded-md text-white text-md hover:bg-white hover:text-softBlue">
           Add & Install Extension
         </button>
       </div>
